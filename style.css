@@ -1,35 +1,40 @@
+/* Algemene stijl voor de pagina */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 40px;
-    text-align: center;
+    font-family: Arial, sans-serif;      /* Lettertype instellen */
+    background-color: #f2f2f2;           /* Lichtgrijze achtergrondkleur */
+    padding: 40px;                       /* Ruimte rondom de inhoud */
+    text-align: center;                  /* Alles centreren */
 }
 
+/* Stijl voor het tekstveld */
 input {
-    padding: 8px 12px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 8px 12px;                   /* Binnenruimte in het veld */
+    font-size: 16px;                     /* Grotere tekst */
+    border: 1px solid #ccc;              /* Grijze rand */
+    border-radius: 4px;                  /* Afgeronde hoeken */
 }
 
+/* Stijl voor de knop */
 button {
-    margin-left: 10px;
-    padding: 8px 16px;
-    font-size: 16px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 4px;
-    cursor: pointer;
+    margin-left: 10px;                   /* Kleine ruimte naast het tekstveld */
+    padding: 8px 16px;                   /* Binnenruimte in de knop */
+    font-size: 16px;                     /* Grotere tekst */
+    border: none;                        /* Geen rand */
+    background-color: #4CAF50;           /* Groene achtergrond */
+    color: white;                        /* Witte tekst */
+    border-radius: 4px;                  /* Afgeronde hoeken */
+    cursor: pointer;                     /* Wijzer verandert naar handje */
 }
 
+/* Extra stijl als je over de knop hovert */
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049;           /* Donkergroene kleur bij hover */
 }
 
+/* Stijl voor het resultaat (feedback) */
 .feedback {
-    display: block;
-    margin-top: 20px;
-    font-size: 18px;
-    color: #333;
+    display: block;                      /* Zet het op een nieuwe regel */
+    margin-top: 20px;                    /* Ruimte boven het resultaat */
+    font-size: 18px;                     /* Grotere tekst */
+    color: #333;                         /* Donkergrijze kleur */
 }
